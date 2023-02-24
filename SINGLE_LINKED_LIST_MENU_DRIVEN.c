@@ -36,6 +36,7 @@ void create_list(int size) {
 		temp->next=newNode;
 		temp=temp->next;
 	}
+	printf("List created succesfully!");
 }
 
 //INSERTION
